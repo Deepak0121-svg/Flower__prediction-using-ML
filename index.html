@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Species Prediction</title>
+</head>
+<body>
+    <h1>Flower Species Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="height_cm">Height (cm):</label><br>
+        <input type="number" id="height_cm" name="height_cm" step="any" required><br><br>
+
+        <label for="petal_length">Petal Length:</label><br>
+        <input type="number" id="petal_length" name="petal_length" step="any" required><br><br>
+
+        <label for="petal_width">Petal Width:</label><br>
+        <input type="number" id="petal_width" name="petal_width" step="any" required><br><br>
+
+        <label for="sepal_length">Sepal Length:</label><br>
+        <input type="number" id="sepal_length" name="sepal_length" step="any" required><br><br>
+
+        <label for="sepal_width">Sepal Width:</label><br>
+        <input type="number" id="sepal_width" name="sepal_width" step="any" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
